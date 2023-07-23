@@ -1,0 +1,900 @@
+<!Doctype html>
+<html>
+<head>
+<title>for new template </title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.header-Main{
+	width:100%;
+	height:797px;
+	background:url(images/header-base.jpg)no-repeat,#000;
+	background-size:100%;
+}
+.header-nav{
+	width:100%;
+	height:233px;
+	background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.header-inner{
+	width:1246px;
+	height:233px;
+	margin:auto;
+}
+.header-logo{
+	width:101px;
+	height:101px;
+	float:left;
+	margin-top:59px;
+}	
+.header-menu{
+	width:1145px;
+	height:233px;
+	float:left;
+	text-align:right;
+}
+.header-menu ul {
+	margin-top:79px;
+}
+.header-menu ul li {
+	list-style-type:none;
+	display:inline;
+	margin-left:60px;
+}
+.header-menu ul li a:link,.header-menu ul li a:visited{
+	font-family:poppins;
+	font-weight:600;
+	font-size:25px;
+	color:white;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.header-menu ul li a:hover{	
+	color:#f64b3c;
+	text-decoration:underline;	
+}
+.header-menu ul li a.active{
+	color:#f64b3c;
+}
+.header-content{
+	width:1246px;
+	height:564px;
+	margin:auto;
+}
+.header-content h1{
+	font-family:poppins;
+	font-size:91px;
+	font-weight:500;
+	color:#fff;
+	letter-spacing:3px;
+	line-height:80px;
+}
+.header-content p{
+	font-family:poppins;
+	font-size:32px;
+	color:#fff;
+	margin:50px 0 50px 0;
+}
+.header-content button{
+	width:322px;
+	height:65px;
+	background-color:#f64b3c;
+	border-radius:40px;
+	font-family:poppins;
+	font-size:25px;
+	color:#fff;
+	font-weight:600;
+	text-transform:uppercase;
+	border:0;
+}
+.header-content button:hover{
+	width:322px;
+	height:65px;
+	background-color:#f64b3c;
+	border-radius:40px;
+	font-family:poppins;
+	font-size:25px;
+	color:#000;
+	font-weight:600;
+	text-transform:uppercase;
+	border:0;
+}
+.header-main1{
+	width:100%;
+	height:795px;
+	margin:auto;
+	background-color:#f6eedf;
+	background:url(images/our-chef.png) no-repeat;
+}
+.header-main2{	
+	width:1246px;
+	height:795px;
+	margin:auto;
+}
+.header-main2_1{	
+	width:1246px;
+	height:250px;
+	margin:auto;
+}
+.header-main2_1 h1{
+	text-align:center;
+	font-family:myriad pro;
+	font-weight:bold;
+	font-size:55px;
+	color:#f64b3c;
+	padding-top:90px;
+	padding-bottom:30px;
+}
+.header-main2_1 p{
+	text-align:center;
+	font-family:myriad pro;
+	font-size:25px;
+	color:#f64b3c;
+}
+.header-main2_2{	
+	width:1246px;
+	height:545px;
+	margin:auto;
+}
+.header-main2_2_1{	
+	width:415px;
+	height:545px;
+	float:left;
+}
+.header-main2_2_1 span img{
+	padding:65px 60px 20px 80px;
+}
+.header-main2_2_1 h1{
+	font-family:myriad pro;
+	font-size:30px;
+	color:#f64b3c;
+	text-transform:uppercase;	
+	padding:0 70px 15px 80px;
+}
+.header-main2_2_1 h3{
+	font-family:myriad pro;
+	font-size:30px;
+	color:#f64b3c;	
+	padding:0 135px 145px 140px;
+}
+.header-main2_2_2{	
+	width:415px;
+	height:545px;
+	float:left;
+}
+.header-main2_2_2 span img{	
+	padding:65px 155px  22px 90px;
+}
+.header-main2_2_2 h1{	
+	font-family:myriad pro;
+	font-size:30px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	padding:0px 70px 20px 80px;
+}
+.header-main2_2_2 h3{
+	font-family:myriad pro;
+	font-size:25px;
+	color:#f64b3c;	
+	padding:0 135px 145px 140px;
+}	
+.header-main2_2_3{	
+	width:415px;
+	height:545px;
+	float:left;
+}
+.header-main2_2_3 span img{	
+	padding:65px 155px  22px 90px;
+}
+.header-main2_2_3 h1{	
+	font-family:myriad pro;
+	font-size:30px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	padding:0px 70px 20px 70px;
+}
+.header-main2_2_3 h3{
+	font-family:myriad pro;
+	font-size:25px;
+	color:#f64b3c;	
+	padding:0 135px 145px 140px;
+}
+.header-main3{
+	width:100%;
+	height:795px;
+	margin:auto;
+	background-color:#f64b3c;	
+}
+.header-main3_1{
+	width:1260px;
+	height:795px;
+	margin:auto;
+}	
+.header-main3_1_1{	
+	width:585px;
+	height:795px;
+	float:left;
+}
+.header-main3_1_1 span img{
+	padding:170px 40px 148px 70px;
+}
+.header-main3_1_2{	
+	width:675px;
+	height:795px;
+	float:left;
+}
+.header-main3_1_2 h1{
+	font-family:myriad pro;
+	font-size:75px;
+	color:#fff;
+	padding:250px 190px 40px 95px;
+}
+.header-main3_1_2 p{
+	font-family:myriad pro;
+	font-size:30px;
+	color:#fff;
+	padding:0 0 70px 95px;
+}
+.header-main3_1_2 button{	
+	width:322px;
+	height:65px;
+	background-color:#fff;
+	border:0;
+	border-radius:40px;
+	font-family:myriad pro;
+	font-size:25px;
+	font-weight:bold;
+	color:#f64b3c;
+	margin: 0 250px 200px 95px;
+}
+.header-main3_1_2 button:hover{	
+	width:322px;
+	height:65px;
+	background-color:#f99188;
+	border:0;
+	border-radius:40px;
+	font-family:myriad pro;
+	font-size:25px;
+	font-weight:bold;
+	color:#000;
+	margin: 0 250px 200px 95px;
+}
+.header-main4{
+	width:100%;
+	height:795px;
+	margin:auto;
+	background-color:#f6eedf;
+	background:url(images/our-chef.png)no-repeat;
+}
+.header-main4_1{
+	width:1260px;
+	height:795px;
+	margin:auto;	
+}
+.header-main4_1_1{	
+	width:625px;
+	height:795px;
+	float:left;
+}
+.header-main4_1_1 h1{
+	font-family:myriad pro;
+	font-size:75px;
+	font-weight:bold;
+	color:#f64b3c;
+	padding:255px 145px 30px 50px;
+}
+.header-main4_1_1 p{
+	font-family:myriad pro;
+	font-size:30px;
+	color:#f64b3c;
+	padding:0 0 60px 50px;
+}
+.header-main4_1_1 button{	
+	width:322px;
+	height:65px;
+	background-color:#f64b3c;
+	border:0;
+	border-radius:40px;
+	font-family:myriad pro;
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;
+	margin: 0  250px 200px 50px;
+}
+.header-main4_1_1 button:hover{	
+	width:322px;
+	height:65px;
+	background-color:#fff;
+	border:0;
+	border-radius:40px;
+	font-family:myriad pro;
+	font-size:25px;
+	font-weight:bold;
+	color:#f64b3c;
+	margin: 0  250px 200px 50px;
+}
+.header-main4_1_2{
+	width:635px;
+	height:795px;
+	float:left;
+}	
+.header-main4_1_2 span img{
+	padding:180px 40px 145px 115px;
+}
+.header-main5{
+	width:100%;
+	height:795px;
+	background-color:#f64b3c;
+}
+.header-main5_1{
+	width:1260px;
+	height:795px;
+	margin:auto;
+}	
+.header-main5_1_1{
+	width:1260px;
+	height:270px;
+}	
+.header-main5_1_1 h1{
+	font-family:Myriad Pro;
+	font-size:55px;
+	color:#fff;
+	text-align:center;
+	padding:95px 515px 30px 515px;
+}
+.header-main5_1_1 p{
+	font-family:Myriad Pro;
+	font-size:23px;
+	color:#fff;
+	text-align:center;
+}
+.header-main5_1_2{
+	width:1260px;
+	height:525px;
+	margin:auto;
+}
+.header-main5_1_2 span img {
+	padding:35px 55px 180px 70px;
+}
+.header-main6{
+	width:100%;
+	height:795px;
+	background:url(images/our-chef.png)no-repeat #f6eedf;
+}
+.header-main6_1{
+	width:1260px;
+	height:795px;
+	margin:auto;
+}
+.header-main6_1_1{
+	width:1260px;
+	height:305px;
+	margin:auto;
+}
+.header-main6_1_1 h1{
+	font-family:Myriad pro;
+	font-size:65px;
+	color:#f64b3c;
+	text-align:center;
+	padding:75px 295px 140px 353px;
+}
+.header-main6_1_2{
+	width:1260px;
+	height:490px;
+	margin:auto;
+}
+.header-main6_1_2_1{
+	width:335px;
+	height:445px;
+	float:left;
+	background-color:#fff;;
+	border-radius:10px;
+	margin:0 53px 80px 56px;
+}
+.header-main6_1_2_1 h1{
+	font-family:Myriad pro;
+	font-size:34px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	padding:32px 75px  38px 70px;
+}
+.header-main6_1_2_1 span img{
+	padding: 0 115px 25px 114px;
+}
+.header-main6_1_2_1 h2{
+	font-family:Myriad Pro;
+	font-size:34px;
+	color:#f64b3c;
+	padding: 0 122px 20px 115px;
+}
+.header-main6_1_2_1 p{
+	font-family:Myriad Pro;
+	font-size:20px;
+	color:#f64b3c;
+	padding: 0 30px 25px 30px;
+}
+.header-main6_1_2_1 button{
+	width:290px;
+	height:60px;
+	background-color:#f64b3c;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 20px 25px 22px;
+}
+.header-main6_1_2_1 button:hover{
+	width:290px;
+	height:60px;
+	background-color:#e0e0e0;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	margin:0 20px 25px 22px;
+}
+.header-main6_1_2_2{
+	width:335px;
+	height:445px;
+	float:left;
+	background-color:#fff;;
+	border-radius:10px;
+	margin:0 45px 80px 35px;
+}
+.header-main6_1_2_2 h1{
+	font-family:Myriad pro;
+	font-size:34px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	padding:32px 75px  38px 70px;
+}
+.header-main6_1_2_2 span img{
+	padding: 0 115px 25px 114px;
+}
+.header-main6_1_2_2 h2{
+	font-family:Myriad Pro;
+	font-size:34px;
+	color:#f64b3c;
+	padding: 0 122px 20px 115px;
+}
+.header-main6_1_2_2 p{
+	font-family:Myriad Pro;
+	font-size:20px;
+	color:#f64b3c;
+	padding: 0 30px 25px 30px;
+}
+.header-main6_1_2_2 button{
+	width:290px;
+	height:60px;
+	background-color:#f64b3c;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 20px 25px 22px;
+}
+.header-main6_1_2_2 button:hover{
+	width:290px;
+	height:60px;
+	background-color:#e0e0e0;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	margin:0 20px 25px 20px;
+}
+.header-main6_1_2_3{
+	width:335px;
+	height:445px;
+	float:left;
+	background-color:#fff;;
+	border-radius:10px;
+	margin:0 17px 80px 40px;
+}
+.header-main6_1_2_3 h1{
+	font-family:Myriad pro;
+	font-size:34px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	padding:32px 75px  38px 70px;
+}
+.header-main6_1_2_3 span img{
+	padding: 0 115px 25px 114px;
+}
+.header-main6_1_2_3 h2{
+	font-family:Myriad Pro;
+	font-size:34px;
+	color:#f64b3c;
+	padding: 0 122px 20px 115px;
+}
+.header-main6_1_2_3 p{
+	font-family:Myriad Pro;
+	font-size:20px;
+	color:#f64b3c;
+	padding: 0 30px 25px 30px;
+}
+.header-main6_1_2_3 button{
+	width:290px;
+	height:60px;
+	background-color:#f64b3c;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 20px 25px 22px;
+}
+.header-main6_1_2_3 button:hover{
+	width:290px;
+	height:60px;
+	background-color:#e0e0e0;
+	border:0;
+	border-radius:40px;
+	font-family:Myriad pro;
+	font-size:23px;
+	color:#f64b3c;
+	text-transform:uppercase;
+	margin:0 20px 25px 22px;
+}
+.header-main7{
+	width:100%;
+	height:795px;
+	background:url(images/background-image.png)no-repeat;
+	background-size:100%;
+}
+.header-main7_1{
+	width:100%;
+	height:795px;
+	margin:auto;
+	background:rgba(247,74,59,0.85);
+}
+.header-main7_1 p{
+	font-family:Myriad pro;
+	font-size:37px;
+	text-align:center;
+	color:#fff;
+	padding:290px 209px 105px 221px;
+}
+.header-main7_1 h2{
+	font-family:Myriad pro;
+	font-size:45px;
+	color:#fff;
+	text-align:center;
+	padding: 0 470px 265px 450px;
+}
+.header-main8{
+	width:100%;
+	height:795px;
+	background:url(images/our-chef.png)no-repeat #f6eedf;
+	background-size:100%;
+}
+.header-main8_1{
+	width:1260px;
+	height:624px;
+	margin:auto;
+	padding:171px 0 0 0;
+	text-align:center;
+}
+.header-main8_1 h1{
+	font-family:Myriad Pro;
+	font-size:75px;
+	color:#f64b3c;
+}
+.header-main8_1 p{
+	font-family:Myriad Pro;
+	font-size:30px;
+	color:#f64b3c;
+	margin:25px 0 60px 0;
+}
+.header-main8_1 form input[type=email]{
+	width:549px;
+	height:63px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	outline:none;
+	border:1px solid #fff;
+	font-family: 'Poppins';
+	font-size:25px;
+}
+.header-main8_1 form button{
+	width:322px;
+	height:65px;
+	background:#f64b3c;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	font-family:myriad pro;
+	font-size:25px;
+	color:#fff;
+	font-weight:600px;
+	text-transform:uppercase;
+	border:0;
+	outline:none;
+	transition: all 0.5s;
+	cursor:pointer;
+}
+.header-main8_1 form button:hover{
+	width:322px;
+	height:65px;
+	background:#f64b3c;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+	font-family:myriad pro;
+	font-size:25px;
+	color:#000;
+	font-weight:600px;
+	text-transform:uppercase;
+	border:0;
+	outline:none;
+	transition: all 0.5s;
+	cursor:pointer;
+}
+.header-main8_1 form input{
+		padding:0 0 0 20px;
+	}
+.header-main9{
+	width:100%;
+	height:795px;
+	background-color:#222222;
+}
+.header-main9_1{
+	width:1260px;
+	height:795px;
+	margin:auto;
+}
+.header-main9_1_1{
+	float:left;
+	margin:234px 160px 287px 8px;	
+}
+.header-main9_1_1 h1{
+	font-family:myriad pro;
+	font-size:31.47px;
+	color:#fff;
+	margin: 0 0 25px 0;
+}
+.header-main9_1_1 p{
+	font-family:myriad pro;
+	font-size:23.6px;
+	color:#fff;
+	margin: 0 0 25px 0;
+}
+.header-main9_1_2{
+	float:left;
+	margin:237px 90px 287px 0; 
+}
+.header-main9_1_2 h1{
+	font-family:myriad pro;
+	font-size:31.47px;
+	color:#fff;
+	margin: 0 0 25px 0;
+}
+.header-main9_1_2 ul li{
+	list-style-type:none;
+	line-height:30px;
+	color:#fff;
+	font-size:23.6px;
+}
+ .header-main9_1_2 a {
+	text-decoration:none;
+} 
+.header-main9_1_3{
+	float:left;
+	margin:237px 90px 287px 0;
+}
+.header-main9_1_3 h1{
+	font-family:myriad pro;
+	font-size:31.47px;
+	color:#fff;
+	margin: 0 0 25px 0;
+}
+.header-main9_1_3 ul li{
+	list-style-type:none;
+	line-height:30px;
+	color:#fff;
+	font-size:23.6px;
+}
+.header-main9_1_3 a {
+	text-decoration:none;
+} 
+.header-main9_1_4{
+	float:left;
+	margin:237px 0 287px 30px;
+}
+.header-main9_1_4 h1{
+	font-family:myriad pro;
+	font-size:31.47px;
+	color:#fff;
+	margin: 0 0 25px 0;
+}
+.header-main9_1_4 ul li{
+	list-style-type:none;
+	line-height:30px;
+	color:#fff;
+	font-size:23.6px;
+}
+.header-main9_1_4 a {
+	text-decoration:none;
+} 	
+</style>
+</head>
+<body>
+<div class="header-Main">
+	<div class="header-nav">
+		<div class="header-inner">
+			<div class="header-logo"><img src="images/logo.png" alt=""></div>
+			<div class="header-menu">
+				<ul>
+					<li><a href="#"class="active">home</a></li>
+					<li><a href="#">product</a></li>
+					<li><a href="#">promo</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header-content">
+		<h1>Get Cashback<br>up to 50%</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Suspendisse consectetur<br>justo eu nunc consequat.</p>
+		<button>Order Now</button>
+		</div>
+	</div>
+</div>
+	<div class="header-main1">
+		<div class="header-main2">
+			<div class="header-main2_1">
+				<h1> Our Chef</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vi<br>vamus lacinia odio vitae vestibulum vestibulum. </p>
+			</div>
+			<div class="header-main2_2">
+				<div class="header-main2_2_1">
+					<span><img src="images/Aiden-Hunter.png" alt=""></span>
+					<h1>Aiden-Hunter</h1>
+					<h3>Founder</h3>
+				</div>
+				<div class="header-main2_2_2">
+					<span><img src="images/Ethel-Ramsey.png" alt=""></span>
+					<h1>Ethel-Ramsey</h1>
+					<h3>Co-Founder</h3>
+				</div>
+				<div class="header-main2_2_3">
+					<span><img src="images/Fannie-Stewart.png" alt=""></span>
+					<h1>Fannie-Stewart</h1>
+					<h3>Co-Founder</h3>
+				</div>
+			</div>
+		
+		</div>
+	
+	</div>
+	<div class="header-main3">
+		<div class="header-main3_1">
+			<div class="header-main3_1_1">
+				<span><img src="images/Best-Burger.png" alt=""></span>
+			</div>
+			<div class="header-main3_1_2">
+				<h1>Best Burger</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Vivamus lacinia odio 					vitae<br>vestibulum vestibulum. </p>
+				<button>Order Now </button>
+			</div>
+		</div>	
+		
+	</div>
+	<div class="header-main4">
+		<div class="header-main4_1">
+			<div class="header-main4_1_1">
+				<h1>Best Burger</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipi<br>scing elit. Vivamus lacinia odio 									vitae vestibu<br>lum vestibulum. </p>
+				<button>Order Now </button>
+			</div>    
+			<div class="header-main4_1_2">
+			<span><img src="images/Best-Burger.png" alt=""></span>
+			</div>
+	
+		</div>
+	</div>
+	<div class="header-main5">
+		<div class="header-main5_1">
+			<div class="header-main5_1_1">
+				<h1>Statistics</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lac<br>inia odio vitae vestibulum vestibulum </p>
+			</div>
+		<div class="header-main5_1_2">
+			<span><img src="images/text.png" alt=""></span>
+		</div>
+	
+	</div>
+	<div class="header-main6">
+		<div class="header-main6_1">
+			<div class="header-main6_1_1">
+			<h1>Popular Package</h1>
+			</div>	
+			<div class="header-main6_1_2">
+				<div class="header-main6_1_2_1">
+					<h1> package I</h1>
+					<span><img src="images/burger-logo.png" alt=""></span>
+					<h2>$10.00</h2>
+					<p>Lorem ipsum dolor sit amet, 													con<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sectetur adipiscing elit.</p>
+					<button>order now</button>
+				</div>
+				<div class="header-main6_1_2_2">
+					<h1> package I</h1>
+					<span><img src="images/burger-logo.png" alt=""></span>
+					<h2>$20.00</h2>
+					<p>Lorem ipsum dolor sit amet, 													con<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sectetur adipiscing elit.</p>
+					<button>order now</button>
+				
+				</div>
+				<div class="header-main6_1_2_3">
+					<h1> package I</h1>
+					<span><img src="images/burger-logo.png" alt=""></span>
+					<h2>$30.00</h2>
+					<p>Lorem ipsum dolor sit amet, 													con<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sectetur adipiscing elit.</p>
+					<button>order now</button>	
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="header-main7">
+		<div class="header-main7_1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Vivamus lacinia odio vitae vestibulum 						vestibulum. </p>
+			<h2>Barry Henderson</h2>
+		</div>
+	</div>
+	<div class="header-main8">
+		<div class="header-main8_1">
+			<h1>Don’t miss Our Update</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 						Vi<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vamus lacinia odio vitae vestibulum vestibulum. </p>
+			<form>
+				<input type="email" placeholder="Your Email"><button>subscribe</button>
+			</form>
+		</div>	
+	</div>
+	<div class="header-main9">
+		<div class="header-main9_1">
+			<div class="header-main9_1_1">
+				<h1>Title Here</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Aliquam at dignissim nunc<br>, id 				maximus ex. Etiam nec dignissim elit, at<br>dignissim enim. </p>
+				<a href="#"><img src="images/icons1.png" alt=""></a>
+			</div>
+			<div class="header-main9_1_2">
+			<h1>About</h1>
+				<ul>
+					<a href="#"><li>History</li></a>
+					<a href="#"><li>Our Team</li></a>
+					<a href="#"><li>Brand Guidelines</li></a>
+					<a href="#"><li>Terms & Conditions</li></a>
+					<a href="#"><li>Privacy Policy</li></a>
+			</ul>
+			</div>
+			<div class="header-main9_1_3">
+			<h1>Services</h1>	
+				<ul>
+					<a href="#"><li>How to Order</li></a>
+					<a href="#"><li>Our Product</li></a>
+					<a href="#"><li>Order Status</li></a>
+					<a href="#"><li>Promo</li></a>
+					<a href="#"><li>Payment Method</li></a>
+				</ul>
+				</div>
+			<div class="header-main9_1_4">
+			<h1>Other</h1>
+				<ul>
+					<a href="#"><li>Contact us </li></a>
+					<a href="#"><li>Help</li></a>
+					<a href="#"><li>Privacy</li></a>
+			</div>
+	</div>
+</body>
+</html>
